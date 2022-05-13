@@ -1,0 +1,17 @@
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+    <endpoint
+            name="ProductWebService"
+            implementation="gov.iti.jets.soap.controllers.ProductsController"
+            url-pattern="/soap/products"/>
+
+    <endpoint
+            name="CategoryWebService"
+            implementation="gov.iti.jets.soap.controllers.CategoryController"
+            url-pattern="/soap/categories"/>
+
+    <endpoint
+            name="UserWebService"
+            implementation="gov.iti.jets.soap.controllers.UserController"
+            url-pattern="/soap/users"/>
+
+</endpoints>
